@@ -1,0 +1,34 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "Welcome to Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Divjason/nodejstest.git"
+  },
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Divjason/nodejstest/issues"
+  },
+  "homepage": "https://github.com/Divjason/nodejstest#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/node": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6",
+    "nodemon": "^3.1.2"
+  }
+}
